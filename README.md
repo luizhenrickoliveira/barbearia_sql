@@ -53,15 +53,6 @@ JOIN venda v ON c.id_cliente = v.id_cliente
 GROUP BY c.nome;`
 <img width="858" height="336" alt="Captura de Tela (50)" src="https://github.com/user-attachments/assets/a4f6a53d-3b2a-4886-a7f6-3a00d1a95407" />
 
-
-## Como rodar
-1. Abra o MySQL Workbench (ou outro cliente MySQL).  
-2. Execute o arquivo `barberia.sql`.  
-3. Exporte o diagrama do dbdiagram.io (cole o DBML em https://dbdiagram.io) e salve `DER.png` ou `DER.pdf`.  
-4. Adicione prints em `prints/` mostrando as consultas principais rodando (ex.: SELECT de agendamento e relatório de vendas).  
-5. Faça commits organizados no GitHub (um commit para criação das tabelas, outro para dados de exemplo, outro para prints).
-
-
 Autor: Luiz Henrick
 
 
